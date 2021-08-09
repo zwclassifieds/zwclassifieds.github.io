@@ -1,3 +1,6 @@
+html {
+font-size: 100%;
+}
 
 .main-header {
 background-color: green;
@@ -47,7 +50,7 @@ background-color: rgba(255, 255, 255, .3);
 h1 {
 color: white;
 text-align: center;
-font-size: 2em;
+font-size: 1.8em;
 font-style: script;
 }
 
@@ -64,7 +67,7 @@ justify-content: space-between;
 
 .grid-item1 {
 
-padding: 50px;
+padding: 15px;
 background-color: #F0F0F0;
 color: blue;
 font-size: 1.3em;
@@ -136,7 +139,7 @@ width: 33%;
 
 .grid-item6 {
 
-padding: 50px;
+padding: 312.5%;
 
 background-color: #F0F0F0;
 color: blue;
@@ -199,6 +202,8 @@ padding: .5vw;
 color: green;
 margin-bottom: 1vw;
 margin-top: 10px;
+font-size: .8em;
+
 }
 
 .footer-container{
@@ -213,16 +218,20 @@ width: 70%;
 margin-left: 20vw;
 }
 
-.facebook{
+#facebook{
 flex:1;
-padding: 5px;
-margin-left: 10vw;
+padding: 10px;
+margin-left: -20vw;
+width: 40px;
+height: auto;
 }
 
-.twitter{
+#twitter{
 flex:1;
-padding: 5px;
-margin-left: -10vw;
+padding: 20px;
+margin-left: -35vw;
+width: 40px;
+height: auto;
 }
 
 
