@@ -60,10 +60,18 @@ background-color: #FFF;
 margin: 10px auto 0 auto;
 line-height: .5;
 padding: 10px 25px;
-display: flex;
+
 border-style:ridge;
+
+}
+
+@media (min-width: 900px) {
+.grid-container1 {
+display: flex;
 justify-content: space-between;
 }
+}
+
 
 .grid-item1 {
 
@@ -212,10 +220,16 @@ padding: 15px;
 font-size: 1.5em;
 font-weight: bold;
 color: green;
-display: flex;
-justify-content: space-between;
 width: 70%;
 margin-left: 20vw;
+}
+
+
+@media (min-width: 900px) {
+.footer-container {
+display: flex;
+justify-content: space-between;
+}
 }
 
 #facebook{
