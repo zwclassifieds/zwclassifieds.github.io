@@ -65,7 +65,7 @@ border-style:ridge;
 
 }
 
-@media (min-width: 900px) {
+@media (min-width: 300px) {
 .grid-container1 {
 display: flex;
 justify-content: space-between;
@@ -225,7 +225,7 @@ margin-left: 20vw;
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 300px) {
 .footer-container {
 display: flex;
 justify-content: space-between;
