@@ -1,7 +1,3 @@
-html {
-font-size: 100%;
-}
-
 .main-header {
 background-color: green;
 background-blend-mode: multiply;
@@ -50,7 +46,7 @@ background-color: rgba(255, 255, 255, .3);
 h1 {
 color: white;
 text-align: center;
-font-size: 1.8em;
+font-size: 2em;
 font-style: script;
 }
 
@@ -60,66 +56,14 @@ background-color: #FFF;
 margin: 10px auto 0 auto;
 line-height: .5;
 padding: 10px 25px;
-
+display: flex;
 border-style:ridge;
-
-}
-
-/* Extra small devices (phones, 300px and down) */
-@media only screen and (max-width: 300px) {
-.grid-container1 {
-display: flex;
 justify-content: space-between;
-body {
-font-size:10px;
 }
-}
-} 
-
-/* Small devices (portrait tablets and large phones, 400px and up) */
-@media only screen and (max-width: 400px) {
-.grid-container1 {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Medium devices (landscape tablets, 500px and up) */
-@media only screen and (max-width: 500px) {
-.grid-container1 {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Large devices (laptops/desktops, 600px and up) */
-@media only screen and (max-width: 600px) {
-.grid-container1 {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Extra large devices (large laptops and desktops, 700px and up) */
-@media only screen and (max-width: 700px) {
-.grid-container1 {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
 
 .grid-item1 {
 
-padding: 15px;
+padding: 50px;
 background-color: #F0F0F0;
 color: blue;
 font-size: 1.3em;
@@ -191,7 +135,7 @@ width: 33%;
 
 .grid-item6 {
 
-padding: 312.5%;
+padding: 50px;
 
 background-color: #F0F0F0;
 color: blue;
@@ -254,8 +198,6 @@ padding: .5vw;
 color: green;
 margin-bottom: 1vw;
 margin-top: 10px;
-font-size: .8em;
-
 }
 
 .footer-container{
@@ -264,65 +206,16 @@ padding: 15px;
 font-size: 1.5em;
 font-weight: bold;
 color: green;
+display: flex;
+justify-content: space-between;
 width: 70%;
 margin-left: 20vw;
 }
 
-
-/* Extra small devices (phones, 300px and down) */
-@media only screen and (max-width: 300px) {
-.footer-container {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-
-/* Small devices (portrait tablets and large phones, 400px and up) */
-@media only screen and (max-width: 400px) {
-.footer-container {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Medium devices (landscape tablets, 500px and up) */
-@media only screen and (max-width: 500px) {
-.footer-container {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Large devices (laptops/desktops, 600px and up) */
-@media only screen and (max-width: 600px) {
-.footer-container {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-/* Extra large devices (large laptops and desktops, 700px and up) */
-@media only screen and (max-width: 700px) {
-.footer-container {
-display: flex;
-justify-content: space-between;
-body {
-font-size:10px;
-}
-}
-} 
-
 #facebook{
 flex:1;
+padding: 5px;
+margin-left: 10vw;
 padding: 10px;
 margin-left: -20vw;
 width: 40px;
@@ -331,6 +224,8 @@ height: auto;
 
 #twitter{
 flex:1;
+padding: 5px;
+margin-left: -10vw;
 padding: 20px;
 margin-left: -35vw;
 width: 40px;
@@ -362,4 +257,5 @@ div.textWrapLeft {
 clear: left;
 float: left;
 margin: 10px;
-}
+} 
+ 
