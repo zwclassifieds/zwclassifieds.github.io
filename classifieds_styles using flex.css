@@ -53,7 +53,7 @@ font-style: script;
 }
 
 .grid-container1 {
-width: 95%;
+max-width: 90%;
 background-color: #FFF;
 margin: .5vw auto 0 auto;
 line-height: .5;
@@ -96,7 +96,7 @@ color: green;
 display: flex;
 justify-content: space-between;
 width: 65%;
-margin-left: 20vw;
+margin-left: 30vw;
 }
 
 #facebook{
@@ -139,10 +139,3 @@ img {
 width: 10vw;
 height: auto;
 }
-
-div.textWrapLeft {
-clear: left;
-float: left;
-margin: 1vw;
-} 
- 
