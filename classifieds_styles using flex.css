@@ -51,7 +51,7 @@ font-style: script;
 }
 
 .grid-container1 {
-max-width: 90vw;
+max-width: 100%;
 background-color: #FFF;
 margin: .5vw auto 0 auto;
 line-height: .5;
