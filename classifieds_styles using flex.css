@@ -3,13 +3,15 @@ background-color: green;
 background-blend-mode: multiply;
 background-size: cover;
 padding-bottom: 1vw;
+width: 100%;
 }
 
 .main-nav {
 text-align: center:
-font-size: 1.2em;
+font-size: .3em;
 font-weight: lighter;
 border-bottom: .1vw solid rgba(255, 255, 255, .3);
+width: 95%;
 }
 
 .main-nav li {
@@ -51,7 +53,7 @@ font-style: script;
 }
 
 .grid-container1 {
-max-width: 100%;
+width: 95%;
 background-color: #FFF;
 margin: .5vw auto 0 auto;
 line-height: .5;
