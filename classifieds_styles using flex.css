@@ -7,9 +7,9 @@ padding-bottom: 1vw;
 
 .main-nav {
 text-align: center:
-font-size: 1.5em;
+font-size: 1.2em;
 font-weight: lighter;
-border-bottom: 1px solid rgba(255, 255, 255, .3);
+border-bottom: .1vw solid rgba(255, 255, 255, .3);
 }
 
 .main-nav li {
@@ -66,11 +66,15 @@ justify-content: space-between;
 padding: 2vw;
 background-color: #F0F0F0;
 color: blue;
-font-size: 1.3em;
+font-size: 1.1em;
 font-weight: bold;
 box-sizing: border-box;
 width: 33%;
 display: flex;
+}
+
+ul li {
+font-weight: normal;
 }
 
 
@@ -78,7 +82,7 @@ display: flex;
 padding: .5vw;
 color: green;
 margin-bottom: 1vw;
-margin-top: 10px;
+margin-top: 1vw;
 }
 
 .footer-container{
@@ -115,8 +119,8 @@ height: auto;
 
 
 .figure-dims {
-margin-top: 40px;
-margin-left: -80px;
+margin-top: 4vw;
+margin-left: -7vw;
 color:black;
 font-size: .7em;
 float: right;
