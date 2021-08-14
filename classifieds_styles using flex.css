@@ -1,3 +1,11 @@
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
 .main-header {
 background-color: green;
 background-blend-mode: multiply;
@@ -98,13 +106,6 @@ margin-bottom: 1vw;
 margin-top: 1vw;
 max-width: 100%;
 }
-
-
-
-.manage-width {
-max-width: 100%;
-}
-
 
 .footer-container{
 font-style: oblique;
