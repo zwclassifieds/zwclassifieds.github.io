@@ -85,6 +85,7 @@ padding: .5vw;
 color: green;
 margin-bottom: 1vw;
 margin-top: 1vw;
+max-width: 100%;
 }
 
 .footer-container{
