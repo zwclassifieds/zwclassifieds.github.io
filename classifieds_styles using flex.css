@@ -2,9 +2,11 @@
 
 /* Media Query for Mobile Devices */
         @media (max-width: 480px) {
+body {
 max-width: 100%;
+}
             }
-        }
+        
 
 .main-header {
 background-color: green;
